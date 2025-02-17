@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <!-- below Cdnjs link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+  <header>
+    <!-- logo -->
+    <div class="navbar">
+      <div class="nav-logo">
+        <div class="logo"></div>
+      </div>
+      <!-- address -->
+      <div class="nav-address border">
+        <p class="add-first">Deliver to</p>
+        <div class="add-icon">
+          <i class="fa-solid fa-location-dot"></i>
+          <p class="add-second">India</p>
+        </div>
+      </div>
+      <!-- nav-search -->
+      <div class="nav-search">
+        <select class="search-select">
+          <option>ALL</option>
+        </select>
+        <input class="search-input" placeholder="Search Amazon" function="Search">
+        <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <!-- flag -->
+      <div class="flag-section border">
+        <div><img src="img/flag.png" alt="flag" width="20px" height="15px"></div>
+        <select class="flag-search-select" onchange="changeLanguage()">
+          <option class="en-option">EN</option>
+          <option class="en-option2">HI</option>
+          <option class="en-option2">KA</option>
+          <option class="en-option2">TA</option>
+          <option class="en-option2">ML</option>
+          <option class="en-option2">MR</option>
+        </select>
+      </div>
+      <!-- signin -->
+      <div class="nav-signin border">
+        <p><span>Hello Sign in</span></p>
+        <p class="nav-second">Account & Lists</p>
+      </div>
+      <!-- returns-->
+      <div class="nav-return border">
+        <p><span>Returns</span></p>
+        <p class="nav-second">& Orders</p>
+      </div>
+      <!-- Cart-->
+      <div class="nav-cart border">
+        <div><i class="fa-solid fa-cart-shopping"></i></div>
+        <p class="nav-second">Cart</p>
+      </div>
+    </div>
+    <!-- below panel -->
+    <div class="panel">
+      <div class="panel-all">
+        <i class="fa-solid fa-bars"></i>
+        <p>All </p>
+      </div>
+      <div class="panel-ops">
+        <p>Today's Deal</p>
+        <p> Customer Service</p>
+        <p>Registry</p>
+        <p>Gift Cards</p>
+        <p>Sell</p>
+      </div>
+      <div class="panel-deals">
+        <p><img src="img/panel1_primeoffer_img.jpg" width="auto" alt=""></p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero section -->
+  <section>
+    <div class="image-container">
+      <div class="image-list">
+        <div class="image-item">
+          <img src="img/hero_image.jpg" alt="">
+        </div>
+        <div class="image-item">
+          <img src="img/hero_image_2.jpg" alt="">
+        </div>
+        <div class="image-item">
+          <img src="img/hero_image_3.jpg" alt="">
+        </div>
+        <div class="image-item">
+          <img src="img/hero_image_4.jpg" alt="">
+        </div>
+        <div class="image-item">
+          <img src="img/hero_image_5.jpg" alt="">
+        </div>
+        <div class="image-item">
+          <img src="img/hero_image_6.jpg" alt="">
+        </div>
+        <!-- <div class="hero-message">
+                                        <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.
+                                          <a>Click here to go to amazon.in </a>
+                                        </p>
+                                      </div> -->
+      </div>
+      <div class="image-btn-container">
+        <button class="slider-btn" id="slide-btn-left"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="slider-btn" id="slide-btn-right"><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <div class="bgmain" style="padding-bottom: 35px;">
+    <!-- shop sections -->
+    <div class="shop-section">
+      <div class="box1 box">
+        <div class="box-content">
+          <h2>Clothes</h2>
+          <div class="box-img" style="background-image: url('img/box1_image.jpg');"></div>
+          <p>See more</p>
+        </div>
+      </div>
+
+      <div class="box2 box">
+        <div class="box-content">
+          <h2>Health & Personal</h2>
+          <div class="box-img" style="background-image: url('img/box2_image.jpg');"></div>
+          <p>See more</p>
+        </div>
+      </div>
+      <div class="box3 box">
+        <div class="box-content">
+          <h2>Furniture</h2>
+          <div class="box-img" style="background-image: url('img/box3_image.jpg');"></div>
+          <p>See more</p>
+        </div>
+      </div>
+      <div class="box4 box">
+        <div class="box-content">
+          <h2>Electronics</h2>
+          <div class="box-img" style="background-image: url('img/box4_image.jpg');"></div>
+          <p>See more</p>
+        </div>
+      </div>
+      <div class="box1 box">
+        <div class="box-content">
+          <h2>Beauty kit</h2>
+          <div class="box-img" style="background-image: url('img/box5_image.jpg');"></div>
+          <p>See more</p>
+        </div>
+      </div>
+
+      <div class="box2 box">
+        <div class="box-content">
+          <h2>Pets & Care</h2>
+          <div class="box-img" style="background-image: url('img/box6_image.jpg');"></div>
+          <p>See more</p>
+        </div>
+      </div>
+      <div class="box3 box">
+        <div class="box-content">
+          <h2>New Arrival in toys</h2>
+          <div class="box-img" style="background-image: url('img/box7_image.jpg');"></div>
+          <p>See more</p>
+        </div>
+      </div>
+
+      <div class="box4 box">
+        <div class="box-content">
+          <h2>Fashion & Dressing</h2>
+          <div class="box-img" style="background-image: url('img/box8_image.jpg');"></div>
+          <p>See more</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- slider -->
+    <div class="slider-main">
+      <div class="slider-sub">
+        <h2>
+          <span class="slider-head">Related to items you've viewed</span>
+        </h2>
+        <span><a href="">See more</a></span>
+      </div>
+      <div>
+        <div class="slider-container">
+          <div class="slider-images">
+            <ul style="margin-left: 0px; left: 0px;" class="slider">
+              <li style="display: inline-block; margin-right:10px;" class="slider-item">
+                <img src="img/sliderimg1.jpg" alt="">
+              </li>
+              <li style="display: inline-block; margin-right:10px;" class="slider-item">
+                <img src="img/sliderimg14.jpg" alt="">
+              </li>
+              <li style="display: inline-block; margin-right:10px;" class="slider-item">
+                <img src="img/sliderimg3.jpg" alt="">
+              </li>
+              <li style="display: inline-block; margin-right:10px;" class="slider-item">
+                <img src="img/sliderimg4.jpg" alt="">
+              </li>
+              <li style="display: inline-block; margin-right:10px;" class="slider-item">
+                <img src="img/sliderimg5.jpg" alt="">
+              </li>
+              <li style="display: inline-block; margin-right:10px;" class="slider-item">
+                <img src="img/sliderimg6.jpg" alt="">
+              </li>
+              <li style="display: inline-block; margin-right:10px;" class="slider-item">
+                <img src="img/sliderimg7.jpg" alt="">
+              </li>
+              <li style="display: inline-block; margin-right:10px;" class="slider-item">
+                <img src="img/sliderimg8.jpg" alt="">
+              </li>
+              <li style="display: inline-block; margin-right:10px;" class="slider-item">
+                <img src="img/sliderimg9.jpg" alt="">
+              </li>
+              <li style="display: inline-block; margin-right:10px;" class="slider-item">
+                <img src="img/sliderimg10.jpg" alt="">
+              </li>
+              <li style="display: inline-block; margin-right:10px;" class="slider-item">
+                <img src="img/sliderimg11.jpg" alt="">
+              </li>
+              <li style="display: inline-block; margin-right:10px;" class="slider-item">
+                <img src="img/sliderimg12.jpg" alt="">
+              </li>
+              <li style="display: inline-block; margin-right:10px;" class="slider-item">
+                <img src="img/sliderimg13.jpg" alt="">
+              </li>
+              <li style="display: inline-block; margin-right:10px;" class="slider-item">
+                <img src="img/sliderimg2.jpg" alt="">
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+    <!--  slider 2 -->
+    <div class="slider-main">
+      <div class="slider-sub">
+        <h2>
+          <span class="slider-head">Up to 75% off | A wide range of electronics & accessories from Small
+            businesses</span>
+        </h2>
+        <span><a href="">See all offers</a></span>
+      </div>
+      <div>
+        <div class="slider-container">
+          <div class="slider-images">
+            <ul style="margin-left: 0px; left: 0px;" class="slider">
+              <li style="display: inline-block; margin-right:10px;" class="slider-item">
+                <img src="img/slider2img1.jpg" alt="">
+              </li>
+              <li style="display: inline-block; margin-right:10px;" class="slider-item">
+                <img src="img/slider2img2.jpg" alt="">
+              </li>
+              <li style="display: inline-block; margin-right:10px;" class="slider-item">
+                <img src="img/slider2img3.jpg" alt="">
+              </li>
+              <li style="display: inline-block; margin-right:10px;" class="slider-item">
+                <img src="img/slider2img4.jpg" alt="">
+              </li>
+              <li style="display: inline-block; margin-right:10px;" class="slider-item">
+                <img src="img/slider2img5.jpg" alt="">
+              </li>
+              <li style="display: inline-block; margin-right:10px;" class="slider-item">
+                <img src="img/slider2img6.jpg" alt="">
+              </li>
+              <li style="display: inline-block; margin-right:10px;" class="slider-item">
+                <img src="img/slider2img7.jpg" alt="">
+              </li>
+              <li style="display: inline-block; margin-right:10px;" class="slider-item">
+                <img src="img/slider2img8.jpg" alt="">
+              </li>
+              <li style="display: inline-block; margin-right:10px;" class="slider-item">
+                <img src="img/slider2img9.jpg" alt="">
+              </li>
+              <li style="display: inline-block; margin-right:10px;" class="slider-item">
+                <img src="img/slider2img10.jpg" alt="">
+              </li>
+              <li style="display: inline-block; margin-right:10px;" class="slider-item">
+                <img src="img/slider2img11.jpg" alt="">
+              </li>
+              <li style="display: inline-block; margin-right:10px;" class="slider-item">
+                <img src="img/slider2img12.jpg" alt="">
+              </li>
+              <li style="display: inline-block; margin-right:10px;" class="slider-item">
+                <img src="img/slider2img13.jpg" alt="">
+              </li>
+              <li style="display: inline-block; margin-right:10px;" class="slider-item">
+                <img src="img/slider2img14.jpg" alt="">
+              </li>
+
+            </ul>
+          </div>
+        </div>
+        <!-- Left and Right Arrow Buttons -->
+
+      </div>
+    </div>
+  </div> <!--main div for background color gray  -->
+
+  <!-- footer above sign in section-->
+  <div class="footerabovesignin">
+    <h2>See personalized recommendations</h2>
+    <span> Sign in</span>
+    <h6>New customer? <a href="#">Start here.</a></h6>
+
+  </div>
+
+
+  <!--footer -->
+  <footer>
+    <div class="backtotop1">
+      <p>Back to top </p>
+    </div>
+    <div class="foot-panel2">
+      <ul>
+        <p>Get to Know Us</p>
+        <a href="">About Amazon</a>
+        <a href=""> Careers</a>
+        <a href=""> Press Releases</a>
+        <a href="">Amazon Science</a>
+        <a href="">Blogs</a>
+      </ul>
+      <ul>
+        <p>
+          Connect with Us</p>
+        <a href="">Facebook</a>
+        <a href=""> Twitter</a>
+        <a href=""> Instagram</a>
+      </ul>
+      <ul>
+        <p>
+          Make Money with Us</p>
+        <a href="">Sell on Amazon</a>
+        <a href=""> Sell under Amazon Accelerator</a>
+        <a href=""> Protect and Build Your Brand</a>
+        <a href="">Supply to Amazon</a>
+        <a href="">Become an Affiliate</a>
+        <a href="">Fulfilment by Amazon</a>
+        <a href="">Advertise Your Products</a>
+        <a href="">Advertise Your Products</a>
+      </ul>
+      <ul>
+        <p>Let Us Help You</p>
+        <a href="">Your Account</a>
+        <a href=""> Returns Centre</a>
+        <a href=""> Recalls and Product Safety Alerts</a>
+        <a href="">100% Purchase Protection</a>
+        <a href="">Amazon App Download</a>
+        <a href="">Help</a>
+      </ul>
+    </div>
+    <!-- panel3 -->
+    <div class="foot-panel3">
+      <div class="logo">
+      </div>
+      <div class="foot-dropdown">
+        <button class="dropbtn">
+          <i class="fa-solid fa-globe"></i>
+          English
+          <i class="fa-solid fa-sort"></i>
+        </button>
+      </div>
+      <div class="foot-flag">
+        <button class="dropbtn">
+          <img src="img/flag.png" alt="flag" width="15px" height="12px">
+          India
+        </button>
+      </div>
+    </div>
+
+    <!-- panel4 -->
+    <div class="foot-panel4">
+      <div class="panel4-sections">
+        <ul>
+          <li>
+            <a href="">
+              <h5>AbeBooks</h5>
+              <span class="h5text">Books, art
+                & collectibles</span>
+            </a>
+          </li>
+          <li class="navFooterDescSpacer" aria-hidden="true" style="width: 4%"></li>
+
+          <li>
+            <a href="">
+              <h5>
+                Amazon Web Services</h5>
+              <span class="h5text">Scalable Cloud
+                Computing</span>
+            </a>
+          </li>
+          <li class="navFooterDescSpacer" aria-hidden="true" style="width: 4%"></li>
+          <li class="navFooterDescSpacer" aria-hidden="true"></li>
+
+          <li>
+            <a href="">
+              <h5>
+                Audible</h5>
+              <span class="h5text">Download
+                Audio Books</span>
+            </a>
+          </li>
+          <li class="navFooterDescSpacer" aria-hidden="true" style="width: 2.5%"></li>
+          <li>
+            <a href="">
+              <h5>Prime Now</h5>
+              <span class="h5text">2-Hour Delivery
+                on Everyday Items</span>
+            </a>
+          </li>
+        </ul>
+        <!-- second section -->
+        <ul>
+          <li>
+            <a href="">
+              <h5>Shopbop</h5>
+              <span class="h5text">Designer
+                Fashion Brands</span>
+            </a>
+          </li>
+          <li class="navFooterDescSpacer" aria-hidden="true" style="width: 4%"></li>
+          <li>
+            <a href="">
+              <h5>Amazon Business</h5>
+              <span class="h5text">Everything For
+                Your Business</span>
+            </a>
+          </li>
+          <li class="navFooterDescSpacer" aria-hidden="true" style="width: 5%"></li>
+          <li>
+            <a href="">
+              <h5>IMDb</h5>
+              <span class="h5text">Movies,TV
+                & Celebrities</span>
+            </a>
+          </li>
+          <li class="navFooterDescSpacer" aria-hidden="true" style="width: 4%"></li>
+          <li>
+            <a href="">
+              <h5>Amazon Prime Music</h5>
+              <span class="h5text">100 million songs, ad-free
+                Over 15 million podcast episodes</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="panel4-lastlines">
+        <div>
+          <a href="">Conditions of Use & Sale</a> | <a href="">Privacy Notice</a> | <a href="">Interest-Based Ads</a>
+          <div class="copyrights">© 1996-2025, Amazon.com, Inc. or its affiliates</div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,666 @@
+*{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box; /* Include padding and borders in element's total size */
+  /* box-sizing:border-box; */
+}
+body{
+  background-color: rgb(253, 252, 252);
+}
+
+
+.navbar{
+  height: 60px;
+  background-color: #0F1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+
+.nav-logo{
+  height: 50px;
+  width: 100px;
+
+
+}
+.logo{
+  background-image: url("../img/amazon_logo.png");
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+  background-repeat: no-repeat;
+
+}
+
+.border{
+  border: 0.5px solid transparent ;
+  box-sizing:border-box;
+}
+.border:hover{
+  border: 0.5px solid white;
+  transition: none;
+}
+
+/* Addres box2 */
+.add-icon{
+  display: flex;
+  align-items: center;
+}
+.add-first{/* Delivery */
+color: #cccccc;
+font-size: 0.8rem;
+margin-left: 15px;
+}
+
+.add-second{ /* India */
+font-size: 1rem;
+margin-left: 3px;
+}
+
+/* box3 */
+.nav-search{
+  display: flex;
+  justify-content: space-evenly;
+  width: 620px;
+  height: 40px;
+  background-color: orange;
+  border-radius: 4px;
+  border: 2px solid
+}
+.nav-search:hover{
+  border-color: rgb(214, 143, 10);
+  transition: none;
+}
+
+
+.search-select{
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius:4px ;
+  border-bottom-left-radius:4px ;
+  border: none;
+}
+.search-input{
+  width: 100%;
+  font-size: 1rem;
+  border: none!important; 
+}
+.search-input:hover{
+  border: none!important; 
+  outline: none;
+}
+.search-input:focus{
+  outline: none;
+}
+
+.search-icon{
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: 1.2rem;
+  color: rgb(59, 59, 59);
+}
+
+/* Flag section box4 */
+.flag-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.flag-search-select{
+  font-weight: 750;
+  color: rgb(0, 0, 0);
+  background-color: transparent !important;
+  border: none;
+}
+.flag-search-select {
+  color: rgb(255, 255, 255);  /* Default text color for the select */
+}
+
+.flag-search-select .en-option2 {
+  color: rgb(0, 0, 0)!important;  /* White color for the 'EN' option */
+}
+/* box 5 signin*/
+span{
+font-size: 0.75rem;
+}
+.nav-second{
+font-size: 0.85rem;
+font-weight: 750;
+}
+
+/* box6 */
+.nav-cart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+}
+
+/* panel */
+.panel-all{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 22px;
+  border: 1px solid transparent;
+  padding: 5px;
+}
+.panel-all:hover{
+  border-color: white;
+}
+.panel-all > .fa-solid{
+  padding-right: 10px;
+}
+
+.panel-all> p{
+font-size: 15px;
+font-weight: bolder;
+}
+
+
+.panel{
+  background-color: rgb(38, 46, 71);
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.panel-ops>p{
+  display: inline;
+  color: white;
+  /* margin-left: 15px; */
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 8px;
+  font-weight:600;
+}
+
+.panel-ops>p:hover{
+  border-color:white;
+}
+
+.panel-ops{
+  width: 70%;
+  font-size: 0.85rem;
+  font-weight: 700px;
+  cursor: pointer;
+}
+
+.panel-deals{
+  display: inline-flex;
+
+}
+.panel-deals>p>img{
+border: 1px solid transparent;
+}
+.panel-deals>p>img:hover{
+  border-color: white;
+}
+
+
+.panel-deals> p{
+  font-size: 0.9rem;
+  font-weight: 700;
+  border: 1px solid transparent;
+  padding: 8px;
+}
+.panel-deals:hover{
+  border-color: white;
+}
+
+
+/*hero section*/
+.image-container{
+position: relative;
+overflow-y: hidden;
+overflow-x: hidden;
+z-index: 1;
+}
+
+.image-list{
+display: flex;
+}
+.image-item{
+min-width: 100%;
+}
+
+.image-item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30%; /* Adjust the height of the fading effect */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+  pointer-events: none; /* Ensures the gradient doesn't block interaction with the image */
+}
+
+.image-item img{
+width: 100%;
+height: 100%;
+margin: 0 auto;
+}
+
+/* hero section left right button */
+.image-btn-container{
+position: absolute;
+top: 0;
+display: flex;
+justify-content: space-between;
+width: 100%
+}
+
+.slider-btn{
+border: 1px solid transparent;
+padding: 100px 20px;
+font-size: 50px;
+font-weight: 500px;
+background-color:transparent ;
+color: black;
+}
+.slider-btn:focus{
+  border-color: blue;
+  box-shadow: -2px -2px 2px rgb(255, 255, 255), 
+  1px 1px 1px white;
+  margin-top: 2px;
+  margin: 1px;
+}
+
+.image-item{
+  min-width: 100%;
+  transition: transform 0.5s;
+}
+
+
+
+
+.hero-message{
+  background-color: whitesmoke;
+  color: black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  width: 90%;
+  margin-bottom: 40px;
+}
+.hero-message a{
+  color: #007185;
+  cursor:pointer;
+}
+
+/* background bgmain */
+.bgmain{
+  position: relative;
+  top: -270px; /* Adjust the overlap distance here */
+  color: inherit; /* Inherit text color from the parent */
+  height: 1250px;
+}
+
+.bgmain::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* Matches the padding-bottom of the bgmain div */
+  background: linear-gradient(to bottom, #ffffff 275px, #e2e6e7 275px); /* White for the first 40px, then #e2e6e7 below */
+  pointer-events: none;
+}
+
+.bgmain > * {
+  background: transparent; /* Ensure all child elements inside .bgmain have transparent backgrounds */
+}
+
+/* box section */
+.shop-section{
+padding-bottom: 40px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+background: transparent;
+}
+
+.box{
+  width:23%;
+  height: 410px;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 15px;
+  z-index: 2;
+}
+.box-img{
+  background-size:cover;
+  height: 300px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 20px;
+}
+
+.box-content{
+  margin-left:1rem ;
+  margin-right: 1rem;
+}
+
+.box-content p{
+  color:#007185 ;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  padding-bottom: 20px;
+}
+.box-content p:hover{
+  color:#011e24 ;
+}
+
+
+/* slider section below */
+.slider-main {
+  position: relative;
+  padding: 10px 20px;
+  background: white;
+  margin: 0px 20px;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+
+.slider-sub {
+  display: flex;
+}
+
+.slider-head {
+  font-size: 21px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.slider-sub > span > a {
+  position: relative;
+  left: 15px;
+  top: 10px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #007185;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.slider-images {
+  display: flex;
+  transition: transform 1s ease-in-out;
+  cursor: pointer;
+}
+
+/* Container for the slider */
+.slider-container {
+  width: 100%; /* or a fixed width depending on your design */
+  overflow-x: auto; /* Enables horizontal scrolling */
+  white-space: nowrap; /* Prevents the items from wrapping onto the next line */
+  display: block; /* Ensures the container is a block-level element */
+  position: relative; /* To allow the buttons to be positioned relative to this container */
+  padding-bottom: 20px; /* Ensure there's space for the scrollbar */
+}
+
+/* Style the horizontal scrollbar for WebKit browsers */
+.slider-container::-webkit-scrollbar {
+  height: 6px; /* Set the height of the horizontal scrollbar */
+}
+
+/* Style the scrollbar track (background of the scrollbar) */
+.slider-container::-webkit-scrollbar-track {
+  background: #f8f7f7; /* Track color */
+  border-radius: 10px; /* Optional: rounded corners for the track */
+}
+
+/* Style the scrollbar thumb (the draggable part) */
+.slider-container::-webkit-scrollbar-thumb {
+  background: #aaaaaa; /* Thumb color */
+  border-radius: 10px; /* Optional: rounded corners for the thumb */
+}
+
+/* Hover effect on the thumb */
+.slider-container::-webkit-scrollbar-thumb:hover {
+  background: #707070; /* Change thumb color when hovering */
+}
+
+.slider {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.slider li {
+  list-style: none;
+  margin-right: 10px; /* Space between images */
+}
+.slider-item img {
+  width: auto;
+  height: 150px;
+  object-fit: contain; /* Crop the image to fit the container */
+}
+
+
+
+.footerabovesignin{
+  display: grid;
+  text-align: center!important;
+  justify-content: center;
+  height: auto; /* or any specific height */
+  width: 100%; /* or any specific width */
+  border: 1px solid rgb(226, 226, 226);
+  margin-bottom: 30px;
+  padding-top:40px;
+}
+
+.footerabovesignin>span{
+  text-align: center;
+  width: initial;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 10px ;
+  margin-bottom: 7px;
+  /* margin: 8px 70px; */
+  padding: 8px 90px;
+  border-radius: 20px;
+  background-color: #fed813;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+.footerabovesignin>span:hover{
+  background-color: rgb(250, 195, 16);
+}
+
+.footerabovesignin>h6{
+margin-bottom: 20px;
+color: #232f3f;
+font-weight: 100;
+}
+.footerabovesignin>h6>a{
+  color: #5090c5;
+}
+
+
+
+
+
+/* footer seciton starts */
+
+.backtotop1 > p{
+  /* margin-top: 50px; */
+  background-color: #364759!important;
+  /* height: 26px!important; */
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: content-box;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  font-size: 12px;
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem;
+  font-weight: 500;
+}
+
+
+
+.backtotop1 > p:hover{
+  background-color:#ff1111 ;
+}
+
+.foot-panel2{
+  height: 400px;
+  background-color: #232f3f;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 30px;
+
+}
+.foot-panel2>ul>a{
+  display: block;
+  color: #dddddd;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.foot-panel2>ul>a:hover{
+  text-decoration: underline;
+}
+
+.foot-panel2>ul{
+  margin-top: 30px;
+}
+.foot-panel2  p{
+  font-weight: bold;
+}
+
+/* panel 3 */
+.foot-panel3{
+  background-color: #232f3f;
+  border-top: 0.5px solid rgb(97, 97, 97);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0px;
+
+  
+  
+}
+.logo{
+  background-image: url("../img/amazon_logo.png");
+  background-size: contain;
+  height: 80px;
+  width: 120px;
+}
+.foot-dropdown{
+  margin-left: 60px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dropbtn{
+  white-space: normal;
+  padding: 10px 15px;
+  background-color: transparent;
+  border: rgb(131, 131, 131) 1px solid;
+  border-radius: 4px;
+  color: white;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.dropbtn i.fa-globe{
+  font-size: 12px;
+  margin-right: 5px;
+  color: whitesmoke;
+}
+.dropbtn i.fa-sort {
+  color: gray;
+  font-size: 10px;
+  margin-left: 10px;
+}
+.foot-flag {
+  color: red;
+}
+
+/* foot-panel4 */
+.foot-panel4{
+background-color: #131a22;
+color: rgb(192, 192, 192);
+padding-top: 50px;
+padding-left: 60px;
+}
+body > div.footerabovesignin > span{
+  font-size: 0.6rem!important;
+}
+.foot-panel4 ul{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+    margin-left: 0; 
+}
+.foot-panel4 ul li{
+ list-style-type: none!important;
+
+}
+
+h5{
+ color: #dbdbdb;
+ text-decoration: none;
+ font-size: small;
+}
+a .h5text{
+  color: #757575;
+  text-decoration: none !important;
+  font-size: small;
+}
+ a .h5text:hover{
+  text-decoration: underline !important;
+}
+h5:hover{
+  text-decoration: underline !important;
+}
+
+.panel4-sections a{
+  text-decoration: none !important;
+}
+
+.panel4-lastlines{
+  padding: 40px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.panel4-lastlines a{
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+
+}
+
+.panel4-lastlines .copyrights{
+  font-size: 12px;
+  text-align: center;
+}
+.panel4-lastlines a:hover{
+text-decoration: underline;
+}
+
+/* Media Query Below section */

@@ -1,0 +1,1461 @@
+/* Media Query */
+
+/* 69px to 320px */
+@media (min-width: 69px) and (max-width: 320px) {
+  body{
+    max-width: 100%;
+  }
+  .logo {
+    position: relative;
+    top: 10px;
+    left: -3px;
+    width: 2.7rem; /* Even smaller logo */
+    margin-top: 4px; /* Tighten margin */
+  }
+
+  .navbar {
+    height: 1.8rem; /* Smaller navbar height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-logo {
+    width: 45px; /* Reduce nav-logo size even further */
+    margin-left: 0px;
+  }
+
+  .nav-address, .add-first, .add-second, .add-icon, body > header > div.navbar > div.nav-address.border > div > i {
+    font-size: 0.3rem; /* Even smaller font size for these elements */
+  }
+
+  .nav-address {
+    margin-left: 0.3rem; /* Tighten left margin */
+    margin-right: 0.2rem; /* Tighten right margin */
+  }
+
+  span {
+    font-size: 0.3rem !important; /* Even smaller text for spans */
+  }
+
+  .nav-second {
+    margin-left: 0rem;
+    font-size: 0.22rem; /* Smaller font size */
+  }
+
+  .add-first {
+    margin-left: 0.3rem; /* Further reduce margin */
+    font-size: 0.3rem;
+  }
+
+  .nav-search {
+    max-width: 5rem; /* Further reduce max-width */
+    height: 0.4rem; /* Reduce height */
+    border-radius: 1px;
+  }
+
+  body > header > div.navbar > div.nav-search > div > i {
+    font-size: 0.2rem !important; /* Smaller icon size */
+    margin-top: 0.1rem;
+  }
+
+  .image-btn-container{
+    position: absolute;
+    top: -4.5rem; /* Tighten image button container */
+  }
+
+  .panel-ops {
+    font-size: 0.2rem; /* Smaller font for panel options */
+  }
+
+  .panel {
+    height: 1.5rem; /* Reduce height */
+  }
+
+  .panel-ops p {
+    padding: 0.1rem; /* Further reduce padding */
+    font-size: 0.2rem;
+  }
+
+  .slider-item img {
+    width: auto;
+    height: 80px;
+    object-fit: contain;
+  }
+
+  body > header > div.panel > div.panel-all > i {
+    font-size: 0.55rem; /* Smaller icon size */
+    margin-left: 10px;
+  }
+
+  body > header > div.panel > div.panel-all > p {
+    font-size: 0.35rem; /* Further reduce text size */
+  }
+
+  body > header > div.panel > div.panel-deals > p > img {
+    width: 5rem !important; /* Reduce image size */
+    margin-right: 2px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .panel-all {
+    padding: 0rem;
+    margin-left: -1px;
+  }
+
+  .search-select {
+    font-size: 0.2rem; /* Make dropdown font even smaller */
+  }
+
+  body > header > div.navbar > div.nav-search > input {
+    font-size: 0.3rem; /* Reduce input font size */
+  }
+
+  body > header > div.navbar > div.nav-cart.border > div > i {
+    font-size: 0.65rem; /* Smaller cart icon size */
+    padding-right: 0.4rem;
+margin-left: 7px;
+  }
+
+  .flag-section {
+    padding: 0rem !important;
+    font-size: 0.75rem !important; /* Smaller flag icon size */
+  }
+
+  body > header > div.navbar > div.flag-section.border > select {
+    font-size: 0.35rem; /* Reduce font size of select dropdown */
+  }
+
+  body > header > div.navbar > div.flag-section.border > div > img {
+    height: 6px;
+    width: 9px; /* Further reduce flag size */
+  }
+
+  /* slider buttons */
+  .slider-btn {
+    font-size: 0.8rem; /* Smaller button size */
+    top: -1.2rem;
+  }
+
+  .bgmain {
+    top: -1.5rem; /* Adjust background position */
+  }
+
+  .bgmain::after {
+    background: linear-gradient(to bottom, #ffffff 210px, #e2e6e7 210px)!important;
+  }
+
+  .box {
+    padding-top: 0.1rem; /* Reduced box padding */
+    padding-bottom: 0.2rem; /* Further reduce box padding */
+    height: 5.5rem; /* Further reduced height */
+  }
+
+  .box-content h2 {
+    font-size: 0.18rem; /* Smaller heading font */
+  }
+
+  .shop-section > .box > p {
+    padding-bottom: 0.5rem; /* Further reduced padding */
+  }
+
+  .box-content p {
+    font-size: 0.3rem !important; /* Make text smaller */
+    padding: 0px;
+  }
+
+  .box-img {
+    height: 3rem; /* Smaller image height */
+    width: 2.5rem;
+    margin: 2px;
+  }
+
+  body > footer > div.foot-panel4 > div.panel4-sections > ul:nth-child(1) > li:nth-child(5) {
+    width: 3% !important; /* Adjust footer section width */
+  }
+
+  /* slider section */
+  .slider-main {
+    padding-top: 0rem;
+    height: auto;
+  }
+
+  .slider-container {
+    padding-bottom: 0px;
+  }
+
+  .slider-head {
+    font-size: 0.25rem !important; /* Adjust slider heading font size */
+  }
+
+  .footerabovesignin > span {
+    padding: 4px 50px;
+  }
+
+  .slider-sub > span > a {
+    font-size: 0.25rem !important; /* Adjust "see more" font size */
+    position: relative;
+    top: 14px;
+  }
+
+  body > div.footerabovesignin > h2 {
+    font-size: 0.75rem;
+  }
+
+  .foot-panel4 {
+    padding-left: 1.5rem;
+  }
+
+  body > footer > div.foot-panel3 > div.logo {
+    height: 1.7rem;
+  }
+
+  .dropbtn {
+    padding: 5px 8px; /* Smaller button padding */
+    font-size: 0.45rem; /* Adjust font size */
+  }
+
+  .dropbtn i.fa-globe {
+    font-size: 7px; /* Smaller globe icon */
+  }
+
+  .dropbtn i.fa-sort {
+    font-size: 7px; /* Smaller sort icon */
+  }
+
+  .foot-flag {
+    font-size: 0.6rem; /* Smaller footer flag text */
+  }
+
+  .foot-panel2 {
+    height: 16rem; /* Adjust footer panel height */
+  }
+
+  .foot-panel2 ul {
+    line-height: 0.5rem; /* Adjust line height for small space */
+    margin-right: 0.6rem;
+    margin-left: -15px;
+  }
+
+  .foot-panel2 > ul > a {
+    font-size: 0.3rem !important; /* Adjust font size */
+  }
+
+  .foot-panel2 p {
+    font-size: 0.45rem; /* Adjust font size for paragraphs */
+  }
+
+  .foot-panel2 a {
+    font-size: 0.55rem !important; /* Adjust font size for footer links */
+  }
+
+  h5 {
+    font-size: 0.45rem; /* Adjust font size */
+  }
+
+  /* Footer links section grid */
+  body > footer > div.foot-panel4 > div.panel4-sections > ul:nth-child(1),
+  body > footer > div.foot-panel4 > div.panel4-sections > ul:nth-child(2) {
+    padding-left: 0rem !important; /* Adjust padding for footer links */
+  }
+
+  /* footer T&C */
+  body > footer > div.foot-panel4 > div.panel4-lastlines > div {
+    font-size: 0.4rem !important;
+  }
+
+  body > footer > div.foot-panel4 > div.panel4-lastlines > div > a {
+    font-size: 0.35rem !important;
+  }
+
+  body > footer > div.foot-panel4 > div.panel4-lastlines > div > div {
+    font-size: 0.35rem;
+  }
+}
+
+
+/* 321px to 375px */
+@media (min-width: 321px) and (max-width: 375px) {
+  .logo {
+    width: 3.5rem; /* Slightly smaller logo */
+    margin-top: 6px; /* Reduce margin for tight spaces */
+  }
+
+  .navbar {
+    height: 2rem; /* Slightly smaller navbar height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-logo {
+    width: 50px; /* Reduce nav-logo size a bit more */
+    margin-left: 0px;
+  }
+
+  .nav-address, .add-first, .add-second, .add-icon, body > header > div.navbar > div.nav-address.border > div > i {
+    font-size: 0.35rem; /* Even smaller font for better fitting */
+  }
+
+  .nav-address {
+    margin-left: 0.5rem; /* Tighten the left margin */
+    margin-right: 0.2rem; /* Tighten right margin */
+  }
+
+  span {
+    font-size: 0.35rem !important; /* Make span text even smaller */
+  }
+
+  .nav-second {
+    margin-left: 0rem;
+    font-size: 0.3rem; /* Further reduce font size */
+  }
+
+  .add-first {
+    margin-left: 0.4rem; /* Adjust further for small screen */
+    font-size: 0.35rem;
+  }
+
+  .nav-search {
+    max-width: 4rem; /* Slightly reduce the max-width */
+    height: 0.5rem; /* Reduce height further */
+    border-radius: 1px;
+    margin-right: 8px;
+  }
+
+  body > header > div.navbar > div.nav-search > div > i {
+    font-size: 0.25rem !important; /* Smaller icon size */
+    margin-top: 0.15rem;
+  }
+
+  .image-btn-container{
+    position: absolute;
+    top: -3.8rem; /* Adjust for tighter space */
+  }
+
+  .panel-ops {
+    font-size: 0.28rem; /* Make panel options font smaller */
+  }
+
+  .panel {
+    height: 1.8rem; /* Slightly smaller panel height */
+  }
+
+  .panel-ops p {
+    padding: 0.19rem; /* Reduce padding for smaller spacing */
+  }
+  .slider-item img{
+    width: auto;
+    height: 100px;
+    object-fit: contain;
+  }
+  body > header > div.panel > div.panel-all > i {
+    font-size: 0.65rem; /* Slightly smaller icon */
+    margin-left: 12px;
+  }
+
+  body > header > div.panel > div.panel-all > p {
+    font-size: 0.45rem; /* Further reduce text size */
+  }
+
+  body > header > div.panel > div.panel-deals > p > img {
+    width: 6rem !important; /* Reduce image size a little */
+    margin-right: 5px;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+  }
+
+  .panel-all {
+    padding: 0rem;
+    margin-left: -0px;
+  }
+
+  .search-select {
+    font-size: 0.23rem; /* Smaller font for dropdown */
+  }
+
+  body > header > div.navbar > div.nav-search > input {
+    font-size: 0.35rem; /* Smaller font for input */
+  }
+
+  body > header > div.navbar > div.nav-cart.border > div > i {
+    font-size: 0.75rem; /* Adjust cart icon size */
+    padding-right: 0.2rem;
+    position: relative;
+    top: -5px;
+  }
+
+  .flag-section {
+    padding: 0rem !important;
+    font-size: 0.85rem !important; /* Adjust flag icon size */
+  }
+
+  body > header > div.navbar > div.flag-section.border > select {
+    font-size: 0.42rem; /* Adjust font size of select dropdown */
+  }
+
+  body > header > div.navbar > div.flag-section.border > div > img {
+    height: 7px;
+    width: 11px; /* Reduce flag size */
+  }
+
+  /* slider buttons */
+  .slider-btn {
+    font-size: 0.95rem; /* Smaller slider button size */
+    top: -1.4rem;
+  }
+
+  .bgmain {
+    top: -2rem; /* Adjust background position */
+  }
+
+  .bgmain::after {
+    background: linear-gradient(to bottom, #ffffff 220px, #e2e6e7 220px)!important;
+  }
+  body > div.footerabovesignin > h6{
+    font-size: 0.4rem;
+  }
+  .box {
+    padding-top: 0.15rem; /* Adjust box padding */
+    padding-bottom: 0.3rem; /* Reduce box padding */
+    height: 6rem; /* Slightly smaller box height */
+  }
+
+  .box-content h2 {
+    font-size: 0.2rem; /* Smaller heading font */
+  }
+
+  .shop-section > .box > p {
+    padding-bottom: 0.75rem; /* Reduce padding further */
+  }
+
+  .box-content p {
+    font-size: 0.35rem !important; /* Reduce font size */
+    padding: 0px;
+  }
+
+  .box-img {
+    height: 3.7rem; /* Reduce image height */
+    width: 3rem;
+    margin: 2px;
+  }
+
+  body > footer > div.foot-panel4 > div.panel4-sections > ul:nth-child(1) > li:nth-child(5) {
+    width: 3.5% !important; /* Adjust footer section width */
+  }
+
+  /* slider section */
+  .slider-main {
+    padding-top: 0rem;
+    height: auto;
+  }
+
+  .slider-container {
+    padding-bottom: 0px;
+  }
+
+  .slider-head {
+    font-size: 0.3rem !important; /* Adjust slider heading font size */
+  }
+  .footerabovesignin>span {
+   
+    padding: 6px 60px;
+   
+}
+  .slider-sub > span > a {
+    font-size: 0.33rem !important; /* Adjust "see more" font size */
+    position: relative;
+    top: 16px;
+  }
+
+  body > div.footerabovesignin > h2 {
+    font-size: 0.85rem;
+  }
+
+  .foot-panel4 {
+    padding-left: 1.8rem;
+  }
+
+  body > footer > div.foot-panel3 > div.logo {
+    height: 1.9rem;
+  }
+
+  .dropbtn {
+    padding: 6px 10px; /* Smaller button padding */
+    font-size: 0.55rem; /* Adjust font size */
+  }
+
+  .dropbtn i.fa-globe {
+    font-size: 8px; /* Slightly smaller globe icon */
+  }
+
+  .dropbtn i.fa-sort {
+    font-size: 8px; /* Adjust sort icon size */
+  }
+
+  .foot-flag {
+    font-size: 0.65rem; /* Adjust footer flag text */
+  }
+
+  .foot-panel2 {
+    height: 18rem; /* Adjust footer panel height */
+  }
+
+  .foot-panel2 ul {
+    line-height: 0.6rem; /* Adjust line height */
+    margin-right: 0.8rem;
+    margin-left: -20px;
+  }
+
+  .foot-panel2 > ul > a {
+    font-size: 0.38rem !important; /* Adjust font size */
+  }
+  a .h5text{
+    line-height: -2px;
+  }
+  .foot-panel2 p {
+    font-size: 0.49rem; /* Adjust font size for paragraphs */
+  }
+  body > footer > div.backtotop1 > p{
+    font-size: 0.6rem;
+    padding: 0.5rem;
+  }
+  .foot-panel2 a {
+    font-size: 0.65rem !important; /* Reduce font size for footer links */
+  }
+
+  h5 {
+    font-size: 0.5rem; /* Adjust font size */
+  }
+
+  /* Footer links section grid */
+  body > footer > div.foot-panel4 > div.panel4-sections > ul:nth-child(1),
+  body > footer > div.foot-panel4 > div.panel4-sections > ul:nth-child(2) {
+    padding-left: 0rem !important; /* Adjust padding for footer links */
+  }
+
+  /* footer T&C */
+  body > footer > div.foot-panel4 > div.panel4-lastlines > div {
+    font-size: 0.5rem !important;
+  }
+
+  body > footer > div.foot-panel4 > div.panel4-lastlines > div > a {
+    font-size: 0.4rem !important;
+  }
+
+  body > footer > div.foot-panel4 > div.panel4-lastlines > div > div {
+    font-size: 0.45rem;
+  }
+}
+
+
+/* 376px to 480px */
+@media (min-width: 376px) and (max-width: 480px) {
+  .logo {
+    width: 3.8rem; /* Further reduce logo size for very small devices */
+    margin-top: 8px;
+  }
+
+  .navbar {
+    height: 2.2rem; /* Further reduce navbar height */
+  }
+
+  .nav-logo {
+    margin-left: 0px;
+    width: 55px; /* Even smaller logo */
+  }
+
+  .nav-address, .add-first, .add-second, .add-icon, body > header > div.navbar > div.nav-address.border > div > i {
+    font-size: 0.4rem; /* Make font even smaller */
+  }
+
+  .nav-address {
+    margin-left: 0.6rem; /* Reduce left margin further */
+    margin-right: 0.2rem; /* Tighten right margin */
+  }
+
+  span {
+    font-size: 0.4rem !important; /* Reduce font size for spans */
+  }
+
+  .nav-second {
+    margin-left: 0rem; /* Keep margin adjustment */
+    font-size: 0.35rem; /* Reduce font size */
+  }
+
+  .add-first {
+    margin-left: 0.5rem; /* Adjust margin further */
+    font-size: 0.4rem;
+  }
+
+  .nav-search {
+    max-width: 7rem; /* Further reduce max-width for search box */
+    height: 0.6rem; /* Further reduce height */
+  }
+
+  body > header > div.navbar > div.nav-search > div > i {
+    font-size: 0.3rem !important; /* Adjust icon size */
+    margin-top: 0.2rem;
+  }
+  .image-btn-container{
+    position: absolute;
+    top: -2rem;
+  }
+  .panel-ops {
+    font-size: 0.3rem; /* Reduce font size for panel options */
+  }
+  .panel{
+    height: 1.9rem;
+  }
+  .panel-ops p {
+    padding: 0.3rem; /* Reduce padding */
+  }
+
+  body > header > div.panel > div.panel-all > i {
+    font-size: 0.7rem; /* Adjust icon size */
+  }
+
+  body > header > div.panel > div.panel-all > p {
+    font-size: 0.5rem; /* Reduce font size */
+  }
+
+  body > header > div.panel > div.panel-deals > p > img {
+    width: 7rem !important; /* Reduce image size */
+  }
+  .panel-all{
+    padding: 0rem;
+  }
+  .search-select {
+    font-size: 0.25rem; /* Make dropdown font even smaller */
+  }
+
+  body > header > div.navbar > div.nav-search > input {
+    font-size: 0.39rem; /* Smaller font size for input */
+  }
+
+  body > header > div.navbar > div.nav-cart.border > div > i {
+    font-size: 0.8rem; /* Adjust cart icon size */
+    padding-right: 0.2rem; /* Tighten padding */
+  }
+
+  .flag-section {
+    padding: 0rem !important;
+    font-size: 0.9rem !important; /* Reduce flag icon size */
+  }
+
+  body > header > div.navbar > div.flag-section.border > select {
+    font-size: 0.45rem; /* Reduce font size of select dropdown */
+  }
+
+  body > header > div.navbar > div.flag-section.border > div > img {
+    height: 8px;
+    width: 12px; /* Further reduce flag icon size */
+  }
+
+  /* slider buttons of here section */
+  .slider-btn {
+    font-size: 1rem; /* Smaller button size */
+    position: relative;
+    top: -1.6rem;
+  }
+
+  .bgmain {
+    position: relative;
+    top: -5rem; /* Adjust background position */
+  }
+
+  .bgmain::after {
+    background: linear-gradient(to bottom, #ffffff 230px, #e2e6e7 230px)!important;
+  }
+
+  .box {
+    /* card | box */
+    padding-top: 0.2rem; /* Further reduced padding for box */
+    padding-bottom: 0.4rem; /* Reduced padding */
+    height: 7.9rem; /* Reduce box height */
+  }
+
+  .box-content h2 {
+    font-size: 0.3rem; /* Smaller heading font size */
+    font-weight: 100;
+  }
+
+  .shop-section > .box > p {
+    padding-bottom: 0.8rem; /* Reduce padding */
+  }
+
+  .box-content p {
+    font-size: 0.4rem !important; /* Reduce font size */
+  }
+
+  .box-img {
+    margin-top: 0.1rem;
+    height: 5.7rem; /* Further reduce image height */
+  }
+
+  body > footer > div.foot-panel4 > div.panel4-sections > ul:nth-child(1) > li:nth-child(5) {
+    width: 4% !important; /* Adjust footer section width */
+  }
+
+  /* slider section */
+  .slider-main {
+    padding-top: 0rem;
+    height: auto;
+  }
+
+  .slider-container {
+    padding-bottom: 0px;
+  }
+
+  .slider-head {
+    font-size: 0.4rem !important; /* Adjust slider heading font size */
+  }
+
+  .slider-sub > span > a {
+    /* See more of slider section */
+    position: relative;
+    top: 1rem;
+    font-size: 0.35rem !important; /* Reduce font size for "see more" */
+    letter-spacing: normal;
+  }
+  body > div.footerabovesignin > h2{
+    font-size: 0.9rem;
+  }
+  /* footpanel 2 */
+  .foot-panel4{
+    padding-left: 2rem;
+  }
+  body > footer > div.foot-panel3 > div.logo{
+    height: 2rem;
+  }
+ 
+  .dropbtn {
+    white-space: normal; /* Allow text to wrap if necessary */
+    padding: 8px 12px; /* Reduced padding for smaller button */
+    background-color: transparent;
+    border: rgb(131, 131, 131) 1px solid;
+    border-radius: 4px;
+    color: white;
+    margin-right: 8px; /* Reduced margin */
+    cursor: pointer;
+    font-size: 0.6rem; /* Adjust font size */
+  }
+
+  .dropbtn i.fa-globe {
+    font-size: 10px; /* Reduce the globe icon size */
+    margin-right: 4px; /* Reduced margin */
+    color: whitesmoke;
+  }
+
+  .dropbtn i.fa-sort {
+    color: gray;
+    font-size: 9px; /* Reduce the sort icon size */
+    margin-left: 8px; /* Adjust margin */
+  }
+  
+  /* Adjust .foot-flag (assuming you want to modify it here as well) */
+  .foot-flag {
+    color: white; /* Ensure text color matches */
+    font-size: 0.7rem; /* Reduce font size for better fitting */
+  }
+  .foot-panel2{
+    height: 22rem;
+  }
+  .foot-panel2 ul {
+    line-height: 0.9rem; /* Adjust line height */
+    margin-right: 1rem;
+  }
+  .foot-panel2 > ul > a {
+    font-size: 0.3rem !important; /* Reduce font size */
+  }
+  .foot-panel2 p {
+    font-size: 0.6rem; /* Adjust font size for paragraphs */
+  }
+
+  .foot-panel2 a {
+    font-size: 0.7rem !important; /* Reduce font size for footer links */
+  }
+ h5{
+  font-size: 0.54rem;
+ }
+  /* Footer links section grid */
+  body > footer > div.foot-panel4 > div.panel4-sections > ul:nth-child(1),
+  body > footer > div.foot-panel4 > div.panel4-sections > ul:nth-child(2) {
+    padding-left: 0rem !important; /* Adjust padding for footer links */
+  }
+
+  /* footer T&C */
+  body > footer > div.foot-panel4 > div.panel4-lastlines > div {
+    font-size: 0.55rem !important;
+  }
+
+  body > footer > div.foot-panel4 > div.panel4-lastlines > div > a {
+    font-size: 0.5rem !important;
+  }
+
+  body > footer > div.foot-panel4 > div.panel4-lastlines > div > div {
+    font-size: 0.48rem;
+  }
+}
+
+
+/* 481px to 640px */
+@media (min-width: 481px) and (max-width: 640px) {
+  .logo {
+    width: 5rem; /* Further reduce logo size for small devices */
+  }
+
+  .navbar {
+    height: 2.5rem; /* Slightly reduce navbar height */
+  }
+
+  .nav-logo {
+    margin-left: 0px;
+    width: 60px; /* Reduce logo size even more */
+  }
+
+  .nav-address, .add-first, .add-second, .add-icon, body > header > div.navbar > div.nav-address.border > div > i {
+    font-size: 0.45rem; /* Even smaller font size for better readability */
+  }
+
+  .nav-address {
+    margin-left: 1.2rem; /* Reduce left margin */
+    margin-right: 0.3rem; /* Keep right margin tight */
+  }
+
+  span {
+    font-size: 0.45rem !important; /* Further reduce font size for spans */
+  }
+
+  .nav-second {
+    margin-left: 0rem; /* Keep margin adjustment */
+    font-size: 0.4rem; /* Adjust font size */
+  }
+
+  .add-first {
+    margin-left: 0.5rem; /* Adjust margin */
+  }
+
+  .nav-search {
+    max-width: 11rem; /* Further reduce max-width for search box */
+    height: 1rem; /* Reduce height */
+  }
+
+  body > header > div.navbar > div.nav-search > div > i {
+    font-size: 0.6rem !important; /* Adjust icon size */
+  }
+
+  .panel-ops {
+    font-size: 0.47rem; /* Adjust font size for panel options */
+  }
+
+  .panel-ops p {
+    padding: 0.25rem; /* Reduce padding */
+  }
+  body > header > div.panel > div.panel-all > i{
+    font-size: 0.8rem;
+  }
+  body > header > div.panel > div.panel-all > p {
+    font-size: 0.7rem; /* Reduce font size */
+  }
+
+  body > header > div.panel > div.panel-deals > p > img {
+    width: 9rem !important; /* Reduce image size */
+  }
+
+  .search-select {
+    font-size: 0.3rem; /* Adjust font size for dropdown */
+  }
+
+  body > header > div.navbar > div.nav-search > input {
+    font-size: 0.5rem; /* Smaller font size for input */
+  }
+
+  body > header > div.navbar > div.nav-cart.border > div > i {
+    font-size: 0.9rem; /* Adjust cart icon size */
+    padding-right: 0.3rem;
+  }
+
+  .flag-section {
+    padding: 0rem !important;
+    font-size: 1rem !important; /* Adjust flag icon size */
+  }
+  body > header > div.navbar > div.flag-section.border > select{
+    font-size: 0.5rem;
+  }
+  body > header > div.navbar > div.flag-section.border > div > img {
+    height:10px;
+    width: 15px;
+    font-size: 0.75rem; /* Adjust flag icon size */
+  }
+
+  /* slider buttons of here section */
+  .slider-btn {
+    font-size: 1.2rem; 
+  }
+
+  .bgmain {
+    /* main background of hte cards section */
+    position: relative;
+    top: -6rem; 
+  }
+
+  .bgmain::after {
+    background: linear-gradient(to bottom, #ffffff 255px, #e2e6e7 255px)!important;
+  }
+
+  .box {
+    /* card | box */
+    padding-top: 0.3rem; /* Reduced padding for box */
+    padding-bottom: 0.5rem; /* Reduced padding */
+    height: 11rem; /* Reduced box height */
+  }
+
+  .box-content h2 {
+    font-size: 0.6rem; /* Reduce heading font size */
+  }
+
+  .shop-section > .box > p {
+    padding-bottom: 1rem; /* Reduced padding */
+  }
+
+  .box-content p {
+    font-size: 0.65rem !important; /* Adjust font size */
+  }
+
+  .box-img {
+    margin-top: 0.1rem;
+    height: 8rem; /* Further reduce image height */
+  }
+
+  body > footer > div.foot-panel4 > div.panel4-sections > ul:nth-child(1) > li:nth-child(5) {
+    width: 3% !important; /* Adjust footer section width */
+  }
+
+  /* slider section */
+  .slider-main {
+    padding-top: 0rem;
+    height: auto;
+  }
+  .slider-container{
+    padding-bottom: 0px;
+  }
+
+  .slider-head {
+    font-size: 0.7rem !important; /* Adjust slider heading font size */
+  }
+
+  .slider-sub > span > a {
+    /* See more of slider section */
+    position: relative;
+    top: 0.7rem;
+    font-size: 0.4rem !important; /* Adjust font size for "see more" */
+    letter-spacing: normal;
+  }
+
+  /* footpanel 2 */
+  .foot-panel2 ul {
+    line-height: 1.5rem; /* Adjust line height */
+  }
+  .foot-panel2>ul>a{
+    font-size: 0.7rem!important;
+  }
+  .foot-panel2  p{
+    font-size: 0.9rem;
+  }
+  .foot-panel2 a {
+    font-size: 0.75rem !important; /* Reduce font size for footer links */
+  }
+
+  /* Footer links section grid */
+  body > footer > div.foot-panel4 > div.panel4-sections > ul:nth-child(1),
+  body > footer > div.foot-panel4 > div.panel4-sections > ul:nth-child(2) {
+    padding-left: 0rem !important; /* Adjust padding for footer links */
+  }
+/* footer T&C */
+  body > footer > div.foot-panel4 > div.panel4-lastlines > div{
+    /* | marks || */
+    font-size: 0.6rem!important; 
+  }
+  body > footer > div.foot-panel4 > div.panel4-lastlines > div >a{
+    font-size: 0.7rem!important;
+  }
+  body > footer > div.foot-panel4 > div.panel4-lastlines > div > div{
+    font-size: 0.6rem;
+  }
+}
+
+
+/* 641px to 768px */
+@media (min-width: 641px) and (max-width: 768px) {
+  .logo {
+    width: 6rem; /* Adjust logo width for smaller devices */
+  }
+
+  .navbar{
+height: 2.6rem;
+    }
+  .nav-logo {
+    margin-left: 0px; /* Adjust logo positioning */
+    width: 70px; /* Set width for better alignment */
+  }
+
+  .nav-address, .add-first, .add-second, .add-icon, body > header > div.navbar > div.nav-address.border > div > i {
+    font-size: 0.5rem; /* Smaller font size for better readability */
+  }
+
+  .nav-address {
+    margin-left: 1.5rem; /* Adjust left margin for better alignment */
+    margin-right: 0.3rem; /* Adjust right margin */
+  }
+
+  span {
+    font-size: 0.5rem !important; /* Reduce font size for span elements */
+  }
+
+  .nav-second {
+    margin-left: 0rem; /* Adjust margin for better alignment */
+    font-size: 0.4rem; /* Adjust font size */
+  }
+
+  .add-first {
+    margin-left: 0.6rem; /* Adjust margin */
+  }
+
+  .nav-search {
+    max-width: 18rem; /* Reduced max width for the search box */
+    height: 1.4rem; /* Adjust height for smaller screens */
+  }
+  body > header > div.navbar > div.nav-search > div > i{
+    font-size: 0.7rem!important;
+  }
+
+  .panel-ops {
+    font-size: 0.7rem; /* Adjust font size for panel options */
+  }
+  .panel-ops p{
+    padding: 0.3rem ;
+  }
+    body > header > div.panel > div.panel-all > p{
+    font-size: 0.8rem;
+  }
+
+    body > header > div.panel > div.panel-deals > p > img {
+    width: 11rem !important; /* Adjust icon size */
+  }
+
+  .search-select {
+    font-size: 0.65rem; /* Adjust font size for dropdown */
+  }
+
+  body > header > div.navbar > div.nav-search > input {
+    font-size: 0.7rem; /* Adjust font size of input */
+  }
+
+  body > header > div.navbar > div.nav-cart.border > div > i {
+    font-size: 1rem; /* Adjust cart icon size */
+  }
+
+  .flag-section {
+   padding: 0rem!important;
+    font-size: 1.4rem !important; /* Adjust flag icon size */
+  }
+  body > header > div.navbar > div.flag-section.border > div > img{
+    font-size: 0.8rem;
+  }
+
+  /* slider buttons of here section  */
+  .slider-btn {
+    font-size: 1.4rem; /* Adjust slider button size */
+    }
+
+  .bgmain {
+    position: relative;
+    top: -6rem; /* Adjust background position */
+  }
+  .bgmain::after {
+    background: linear-gradient(to bottom, #ffffff 275px, #e2e6e7 275px)!important; 
+    
+  }
+  .box {
+    /* card | box */
+    padding-top: 0.4rem; /* Reduced padding for box */
+    padding-bottom: 0.6rem; /* Reduced padding */
+    height: 15rem; /* Adjust box height for smaller screens */
+  }
+
+  .box-content h2 {
+    font-size: 0.8rem; /* Adjust heading font size */
+  }
+
+  .shop-section > .box > p {
+    padding-bottom: 1.5rem; /* Reduced padding for paragraph */
+  }
+
+  .box-content p{
+    font-size: 0.7rem!important;
+  }
+
+  .box-img {
+    margin-top: 0.1rem;
+    height: 11rem; /* Reduced image height */
+  }
+
+  /* body > div.bgmain > div.shop-section > div:nth-child(1) > div > p {
+    padding-bottom: 0rem;
+    font-size: smaller;
+  } */
+
+  body > footer > div.foot-panel4 > div.panel4-sections > ul:nth-child(1) > li:nth-child(5) {
+    width: 2% !important; /* Adjust footer section width */
+  }
+  /* slider section  */
+  .slider-main{
+    padding-top: 0rem;
+  }
+  .slider-head{
+    font-size: 0.8rem!important;
+  }
+  .slider-sub > span > a{
+    /* see more of slider section */
+    position: relative;
+    top: 0.8rem;
+    font-size: 0.6rem!important;
+    letter-spacing: 0cap;
+  }
+  
+  /* footpanel 2 */
+  .foot-panel2 ul {
+    line-height: 1.6rem;
+  }
+  .foot-panel2 a{
+    font-size: 0.8rem!important;
+  }
+
+  /* Footer links section grid */
+  body > footer > div.foot-panel4 > div.panel4-sections > ul:nth-child(1), 
+  body > footer > div.foot-panel4 > div.panel4-sections > ul:nth-child(2) {
+    padding-left: 0rem !important; /* Adjust padding for footer links */
+  }
+}
+
+/* 769px to 960px */
+@media (min-width: 769px) and (max-width: 960px) {
+  .logo{
+    width: 7rem;
+  }
+
+  .nav-logo {
+    margin-left: 0px; /* Adjust logo positioning */
+    width: 80px; /* Set fixed width for better alignment */
+  }
+
+  .nav-address, .add-first, .add-second, .add-icon, body > header > div.navbar > div.nav-address.border > div > i {
+    font-size: 0.6rem; /* Smaller font size for better readability */
+  }
+  .nav-address{
+  margin-left: 1.8rem;
+  margin-right: 0.5rem
+  }
+  span{
+    /* Hello signin | returns */
+    font-size: 0.7rem!important;
+  }
+  .nav-second {
+    margin-left: 0rem; /* Adjust left margin for better alignment */
+    font-size: 0.6rem;
+  }
+  .add-first {
+    margin-left: 0.7rem; /* Adjust margin for better spacing */
+  }
+  .nav-search {
+    max-width: 22rem; /* Slightly smaller max width for the search box */
+    height: 1.9rem; /* Adjust height for smaller devices */
+  }
+  .panel-ops{
+    font-size: 0.8rem;
+  }
+  body > header > div.panel > div.panel-deals > p > img{
+    /* game Chnage icon | join prime */
+    width: 14rem!important;
+  }
+  .search-select {
+    font-size: 0.7rem; /* Adjust font size for selection dropdown */
+  }
+  body > header > div.navbar > div.nav-search > input{
+    font-size: 0.8rem;
+  }
+
+  body > header > div.navbar > div.nav-cart.border > div > i {
+    /* Adjust cart icon size */
+    font-size: 1.2rem; 
+  }
+  .flag-section {
+    padding-right: 0rem; /* Small padding for flag section */
+    font-size: 1.5rem!important;
+  }
+  .slider-btn {
+    font-size: 1.5rem; /* Smaller slider button size */
+  }
+  .bgmain {
+    position: relative;
+    /* Adjust background card section position */
+    top: -11rem; 
+  }
+  .box {
+    padding-top: 0.5rem; /* Adjust padding for the box */
+    padding-bottom: 0.7rem; /* Reduced padding to fit the content */
+    height: 18rem; /* Adjust box height for smaller screens */
+  }
+  .box-content h2 {
+    font-size: 0.9rem; /* Adjust heading font size */
+  }
+  .shop-section > .box > p {
+    padding-bottom: 2rem; /* Reduced padding for better fit */
+  }
+  .box-img {
+    margin-top: 0.1rem;
+    height: 13rem; /* Reduced image height */
+  }
+  body > div.bgmain > div.shop-section > div:nth-child(1) > div > p {
+    padding-bottom: 0rem;
+  }
+  body > footer > div.foot-panel4 > div.panel4-sections > ul:nth-child(1) > li:nth-child(5){
+    width: 1%!important;
+  }
+/* footer links section grid */
+  body > footer > div.foot-panel4 > div.panel4-sections > ul:nth-child(1),body > footer > div.foot-panel4 > div.panel4-sections > ul:nth-child(2){
+  padding-left: 0rem!important;
+}
+}
+
+
+/* 961px to 1024px */
+@media (min-width: 961px) and (max-width: 1024px) {
+  .navbar {
+    font-size: 0.2rem; /* Smaller font size for navbar */
+    padding-top: 0.6rem; /* Increased padding for better spacing */
+  }
+
+  .nav-logo {
+    margin-left: 0px; /* Reset the margin for better centering */
+    width: auto; /* Ensure the logo adjusts automatically */
+  }
+
+  .nav-address, .add-first, .add-second, .add-icon, body > header > div.navbar > div.nav-address.border > div > i {
+    font-size: 0.75rem; /* Slightly smaller font size for medium screens */
+  }
+
+  .nav-second {
+    margin-left: 0.5rem; /* Adjust spacing for better alignment */
+  }
+
+  .add-first {
+    margin-left: 0.5rem; /* Reduced margin for compact layout */
+  }
+
+  .nav-search {
+    max-width: 26rem;
+    height: 1.8rem; /* Reduced height for smaller devices */
+  }
+
+  .search-select {
+    font-size: 0.7rem; /* Adjust font size for better readability */
+  }
+
+  .flag-section {
+    padding-right: 0.5rem; /* Add a little right padding for balance */
+  }
+
+  body > header > div.navbar > div.nav-cart.border > div > i {
+    font-size: 1.2rem; /* Adjust cart icon size for medium screens */
+  }
+
+  .slider-btn {
+    font-size: 1.6rem; /* Slightly smaller slider button for compactness */
+  }
+
+  .bgmain {
+    position: relative;
+    top: -10rem; /* Adjust background position for smaller screens */
+  }
+
+  .box {
+    padding-top: 0.5rem; /* Adjust padding for box content */
+    padding-bottom: 0.7rem; /* Reduced padding for better use of space */
+    height: 19rem; /* Reduced height for smaller screen size */
+  }
+
+  .box-content h2 {
+    font-size: 1.1rem; /* Adjust heading font size */
+  }
+
+  .shop-section > .box > p {
+    padding-bottom: 3rem; /* Reduced bottom padding */
+  }
+
+  .box-img {
+    margin-top: 0.1rem;
+    height: 14rem; /* Adjust image height */
+  }
+
+  body > div.bgmain > div.shop-section > div:nth-child(1) > div > p {
+    padding-bottom: 0rem;
+  }
+}
+
+/* 1025px to 1100px */
+@media (min-width: 1025px) and (max-width: 1100px) {
+  .navbar {
+    font-size: 0.1rem; /* Slightly larger font size */
+    padding-top: 0.5rem; /* A little more padding */
+  }
+
+  .nav-logo {
+    margin-left: -5px; /* Adjusting left margin for better positioning */
+    width: auto; /* Allow the logo to fit better */
+  }
+
+  .nav-address, .add-first, .add-second, .add-icon, body > header > div.navbar > div.nav-address.border > div > i {
+    font-size: 0.8rem; /* Adjust the font size for smaller screens */
+  }
+
+  .nav-second {
+    margin-left: 0.4rem; /* Adjust the left margin for spacing */
+  }
+
+  .add-first {
+    margin-left: 0.6rem; /* Adjust left margin */
+  }
+
+  .nav-search {
+    max-width: 33rem; /* Adjusting search width for medium screens */
+    height: 2rem; /* Slightly smaller height */
+  }
+
+  .search-select {
+    font-size: 0.85rem; /* Slightly larger font for readability */
+  }
+
+  .flag-section {
+    padding-right: 0.5rem; /* A little padding on the right */
+  }
+
+  body > header > div.navbar > div.nav-cart.border > div > i {
+    font-size: 1.3rem; /* Adjusting cart icon size */
+  }
+
+  .slider-btn {
+    font-size: 1.8rem; /* Slightly smaller slider button size */
+  }
+
+  .bgmain {
+    position: relative;
+    top: -12rem; /* Adjust background positioning */
+  }
+
+  .box {
+    padding-top: 0.4rem; /* Adjust padding for the box */
+    padding-bottom: 0.8rem; /* Reduced padding */
+    height: 20rem; /* Slightly smaller height */
+  }
+
+  .box-content h2 {
+    font-size: 1.2rem; /* Slightly smaller heading */
+  }
+
+  .shop-section > .box > p {
+    padding-bottom: 5rem; /* Adjust padding for better space */
+  }
+
+  .box-img {
+    margin-top: 0.1rem;
+    height: 15rem; /* Adjust height for image size */
+  }
+
+  body > div.bgmain > div.shop-section > div:nth-child(1) > div > p {
+    padding-bottom: 0rem;
+  }
+}
+
+
+
+/* 1101px to 1182px */
+@media (min-width: 1101px) and (max-width: 1182px) {
+  .navbar{
+    font-size: 0.0rem;
+    padding-top: 0.2rem;
+  }
+  .nav-logo{
+    margin-left: -10px;
+    width: min-content;
+  }
+  .nav-address,.add-first,.add-second,.add-icon,body > header > div.navbar > div.nav-address.border > div > i{
+    font-size: 0.7rem;
+  }
+  .nav-second{
+    margin-left: 0.2rem;
+  }
+  .add-first{
+   margin-left: 0.7rem;
+  }
+  .nav-search{
+    max-width: 36rem;
+    height: 2.2rem;
+  }
+  .search-select{
+    /* All selection */
+    font-size: 0.8rem;
+  }
+  .flag-section{
+    padding-right: 0rem;
+  }
+  body > header > div.navbar > div.nav-cart.border > div > i{
+   font-size: 1.4rem;
+  }
+  .slider-btn{
+    font-size: 2rem;
+  }
+  .bgmain{
+    position: relative;
+    top: -14rem;
+  }
+
+  .box{
+    padding-top: 0.3rem;
+    padding-bottom: 0.9rem;
+    height: 21rem;
+  }
+  .box-content h2{
+    font-size: 1.3rem;
+  }
+  .shop-section > .box > p{
+    padding-bottom: 200rem;
+  }
+  .box-img{
+    margin-top: 0.1rem;
+    height: 16rem;
+  }
+  body > div.bgmain > div.shop-section > div:nth-child(1) > div > p{
+    padding-bottom: 0rem;
+  }
+} 
+
+
+/* 1183px to 1920px */
+@media (min-width: 1183px) and (max-width: 1920px) {
+  /* Styles */
+}
+
+/* 1921px to 2560px */
+@media (min-width: 1921px) and (max-width: 2560px) {
+  /* Styles */
+}
+
+/* 2561px to 3840px */
+@media (min-width: 2561px) and (max-width: 3840px) {
+  /* Styles */
+}
